@@ -1,0 +1,277 @@
+*{
+margin:0px;
+padding: 0px;}
+
+
+@font-face {
+    font-family: 'Manrope';
+    src: url('../fonts/Manrope-Medium.woff2') format('woff2'),
+        url('../fonts/Manrope-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Manrope';
+    src: url('../fonts/Manrope-SemiBold.woff2') format('woff2'),
+        url('../fonts/Manrope-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Manrope';
+    src: url('../fonts/Manrope-Bold.woff2') format('woff2'),
+        url('../fonts/Manrope-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Manrope';
+    src: url('../fonts/Manrope-Regular.woff2') format('woff2'),
+        url('../fonts/Manrope-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+body{
+	font-family: 'Manrope';
+}
+
+
+
+
+.nav-set a{
+	   font-family: 'Manrope';	
+	font-size: 18px;
+	font-weight: 400;
+	color: #000000;	
+	line-height: 30px;
+	
+}
+
+
+.btn-set{
+	border: 1px solid #11264C;
+	border-radius: 26px;
+	font-size: 13.28px;
+	font-weight: 600;
+	line-height: auto;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color:#11264C;
+	
+}
+
+.btn-set:hover{
+	
+	background: #C6CAC9;
+	border: 1px solid #C6CAC9;
+}
+
+
+		
+
+.carousel-set img{
+	height: 519px;
+	width: 100%;
+}
+.carousel-set .sub-heading{
+	font-size:60px;
+	font-family: 'Manrope';	
+	font-weight:bold ;
+	line-height: 68px;
+	padding-bottom: 10px;
+}
+
+.carousel-set .see-btn{
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 20px;
+	font-family: 'Manrope';	
+	font-weight:bold ;
+	border-radius: 26px;
+	color: #FFFFFF;
+	border: 2px solid #FFFFFF;
+	background: transparent;
+	margin-bottom: 120px;
+	line-height: auto;
+}
+
+.see-btn:hover{
+	background: #C6CAC9;
+	color: #000000;
+	border: #C6CAC9;
+	border: 2px solid #C6CAC9;
+}
+
+
+
+.carousel_indi{
+	width: 10px;
+	height: 10px;
+	display: inline-block;
+	background: rgba(255,255,255,0.2);
+	border-radius: 50%;
+}
+
+.carousel {
+	position: relative;
+}
+
+.carousel_items {
+	height: 300px;
+	background: grey;
+	padding: 1rem;
+	font-family: 'Quicksand', san-serif;
+	font-weight: bold;
+	font-size: 2rem;
+	color: #FFFFFF;
+}
+
+.carousel_nav{
+	width: 100%;
+	padding: 20px 0;
+	position: absolute;
+	bottom: 0;
+	left:0;
+	text-align: center;
+}
+
+.carousel_button{
+	width: 10px;
+	height: 10px;
+	display: inline-block;
+	background: rgba(255,255,255,0.2);
+	border-radius: 50%;
+	
+}
+
+
+
+
+.pt-70{
+	padding-top:70px;
+}
+
+.pb-70{
+	padding-bottom: 70px;
+}
+
+.service_set .sub-heading{
+	text-align: center;
+	font-family: 'Manrope';	
+	font-weight:bold ;
+	font-size: 45px;
+	color: #11264C;
+}
+
+
+.service_set .sub-para{
+	padding-top: 10px;
+	font-family: 'Manrope';	
+	font-weight:400;
+	font-size: 16px;
+	color: #0F0F0F;
+	text-align: center;
+}
+
+.service_row .sub-heading{
+	    padding-left: 26px;
+		font-size: 25px;
+		font-family: 'Manrope';	
+		font-weight:bold ;
+		color: #000000;
+}
+
+.service_row .sub-para{
+	
+    padding-left: 26px;
+	font-family: 'Manrope';
+	font-weight:400;
+	font-size: 14px;
+	
+}
+
+
+
+			
+
+.pt-70{
+	padding-top: 70px;
+}
+.pb-70{
+	padding-bottom: 70px;
+}
+
+.frayer_banner {
+	background-image: url('../images/Rectangle 17.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: fixed;
+}
+
+.frayer_Set .sub-heading{
+	text-align: center;
+	color:#FFFFFF;
+	font-size: 45px;
+	font-family: 'Manrope';	
+	font-weight:bold ;
+	padding-bottom: 70px;
+}
+
+
+
+.frayer_row img{
+	margin: auto;
+}
+.frayer_row .sub-heading{
+	font-size: 21px;
+	font-family: 'Manrope';	
+	font-weight:bold ;
+	color: #FFFFFF;
+	line-height: 38px;
+	padding-top: 20px;
+}
+
+.frayer_row .sub-para{
+	font-family: 'Manrope';	
+	font-weight:400 ;
+	font-size: 15px;
+	color: #FFFFFF;
+	line-height: 27px;
+		
+}
+			
+			
+.pt-70{
+	padding-top: 70px;
+}
+
+.explore_set .sub-heading{
+	font-size: 45px;
+	font-family: 'Manrope';	
+	font-weight:bold ;
+	color: #11264C;
+	padding-bottom: 40px;
+}
+
+}
+
+.explore_row_img img{
+	height: 733px;
+	width: 100%;
+}
+
+
+			
+
