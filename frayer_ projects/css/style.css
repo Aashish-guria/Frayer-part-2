@@ -1,0 +1,814 @@
+*{
+margin:0px;
+padding: 0px;}
+
+
+@font-face {
+    font-family: 'Manrope';
+    src: url('../fonts/Manrope-Regular.woff2') format('woff2'),
+        url('../fonts/Manrope-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Manrope';
+    src: url('../fonts/Manrope-SemiBold.woff2') format('woff2'),
+        url('../fonts/Manrope-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Manrope';
+    src: url('../fonts/Manrope-Medium.woff2') format('woff2'),
+        url('../fonts/Manrope-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Manrope';
+    src: url('../fonts/Manrope-Light.woff2') format('woff2'),
+        url('../fonts/Manrope-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Manrope';
+    src: url('../fonts/Manrope-Bold.woff2') format('woff2'),
+        url('../fonts/Manrope-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+		/*------ Navigation Section ------*/
+
+.nav-set{gap:10px;}
+
+.nav-set a{
+	   font-family: 'Manrope';	
+	font-size: 18px;
+	font-weight: 400;
+	color: #000000;	
+	line-height: 30px;
+	
+}
+
+.nav-set a:hover{color:#219cd6;}
+.btn-set{
+	border: 1px solid #11264C;
+	border-radius: 26px;
+	font-size: 13.28px;
+	font-weight: 600;
+	line-height: auto;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color:#11264C;
+	
+}
+
+.btn-set:hover{
+	
+	background: #C6CAC9;
+	border: 1px solid #C6CAC9;
+}
+
+.custom-btn{    font-size: 14px;
+	text-transform:uppercase;
+    background: transparent;
+    border-color: #11264C;
+    color: #11264C;
+    padding: 12px 48px;
+    font-weight: bold;}
+	.custom-btn:hover{background:#11264C; border-color:#11264C;}
+
+			/*----- Main Banner Section ----*/
+
+.banner-img .carousel-inner .carousel-item img{height: 600px;
+    width: 100%;
+    object-fit: cover;}
+.carousel-set .sub-heading{
+	font-size:60px;
+	font-family: 'Manrope';	
+	font-weight:bold ;
+	line-height: 68px;
+	padding-bottom: 10px;
+	color:#fff;
+}
+#carouselExampleCaptions .carousel-caption {display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    position: absolute;
+    top: 0;
+    flex-direction: column;}
+.carousel-set .see-btn{
+	padding:12px 48px;
+	font-size: 20px;
+	font-family: 'Manrope';	
+	font-weight:bold ;
+	border-radius: 26px;
+	color: #FFFFFF;
+	border: 2px solid #FFFFFF;
+	background: transparent;
+	line-height: normal;
+}
+
+.see-btn:hover{
+	background: #C6CAC9;
+	color: #000000;
+	border: #C6CAC9;
+	border: 2px solid #C6CAC9;
+}
+
+
+
+.carousel_indi{
+	width: 10px;
+	height: 10px;
+	display: inline-block;
+	background: rgba(255,255,255,0.2);
+	border-radius: 50%;
+}
+
+.carousel {
+	position: relative;
+}
+
+.carousel_items {
+	height: 300px;
+	background: grey;
+	padding: 1rem;
+	font-family: 'Quicksand', san-serif;
+	font-weight: bold;
+	font-size: 2rem;
+	color: #FFFFFF;
+}
+
+.carousel_nav{
+	width: 100%;
+	padding: 20px 0;
+	position: absolute;
+	bottom: 0;
+	left:0;
+	text-align: center;
+}
+
+.carousel_button{
+	width: 10px;
+	height: 10px;
+	display: inline-block;
+	background: rgba(255,255,255,0.2);
+	border-radius: 50%;
+	
+}
+.banner-img .carousel-indicators button[type="button"]{width:10px; height:10px; border: 1px solid #fff;
+    background: transparent; border-radius:50%;}
+.banner-img .carousel-indicators button[type="button"].active{background:#fff;}
+.banner-img .carousel-inner .carousel-item::before{position:absolute; content:""; top:0; bottom:0; left:0; right:0; background-color: rgba(0,0,0,0.5);}
+
+
+
+
+				/*---- Banner Service Section ------*/
+
+
+
+.pt-70{
+	padding-top:70px;
+}
+
+.pb-70{
+	padding-bottom: 70px;
+}
+
+.sub-heading {
+	text-align: center;
+	font-family: 'Manrope';	
+	font-weight:bold ;
+	font-size: 45px;
+	color: #11264C;
+	padding-bottom:50px;
+}
+.sub-heading.light{color:#fff;}
+
+.service_set .sub-para{
+	padding-top: 10px;
+	font-family: 'Manrope';	
+	font-weight:400;
+	font-size: 16px;
+	color: #0F0F0F;
+	text-align: center;
+}
+
+.service_row .sub-heading{
+		font-size: 25px;
+		font-family: 'Manrope';	
+		font-weight:bold ;
+		color: #000000;
+}
+
+.service_row .sub-para{
+	
+
+	font-family: 'Manrope';
+	font-weight:400;
+	font-size: 14px;
+	text-align: center;
+	
+}
+
+
+
+
+				/*------ Frayer Banner Section -----*/
+				
+				
+			
+
+.pt-70{
+	padding-top: 70px;
+}
+.pb-70{
+	padding-bottom: 70px;
+}
+
+.frayer_banner {
+	background-image: url('../images/Rectangle 17.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: fixed;
+}
+
+
+
+.frayer_row img{
+	margin: auto;
+}
+.frayer_row .subHeading{
+	font-size: 21px;
+	font-family: 'Manrope';	
+	font-weight:bold ;
+	color: #FFFFFF;
+	line-height: 38px;
+	padding-top: 20px;
+}
+
+.frayer_row .sub-para{
+	font-family: 'Manrope';	
+	font-weight:400 ;
+	font-size: 15px;
+	color: #FFFFFF;
+	line-height: 27px;
+		
+}
+
+
+
+
+
+
+			/*----- Explore Section ----- */
+			
+			
+			
+.pt-70{
+	padding-top: 70px;
+}
+
+.explore_row_img img{
+	height: 733px;
+	width: 100%;
+}
+
+.explore-banner  .carousel-indicators button[type="button"]{width:10px; height:10px; border: 1px solid #fff;
+    background: transparent; border-radius:50%;}
+
+.explore-banner .carousel-indicators button[type="button"].active{background:#fff;}
+
+
+
+			/*-----Dream Section -----*/
+			
+			
+.pt-30{
+	padding-top: 30px;
+}
+.pb-30{
+	padding-bottom: 30px;
+}
+
+.dream-banner{
+	    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.dream-banner{
+	background-image: url('../images/Rectangle.png');
+	background-position: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+.dream-banner .sub-heading{
+	font-size: 28px;
+	font-family: 'Manrope';	
+	font-weight:bold ;
+	color: #FFFFFF;
+	padding-left: 20px;
+}
+.dream-banner .sub-para{
+	color: #FFFFFF;
+	font-size: 14px;
+	font-family: 'Manrope';	
+	font-weight:400 ;
+	line-height: 28px;
+	padding-left: 20px;
+}
+.con-btn{
+
+	padding-right: 60px;
+	padding-left: 60px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 28px;
+	font-size: 16px;
+	font-family: 'Manrope';	
+	font-weight:bold ;
+	background: transparent;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+}
+.dream-banner .con-btn{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+}
+
+.con-btn:hover{
+	background: #A6ACAF ;
+	color:#fff;
+	border: 1px solid #A6ACAF  ;
+}
+
+			/* ------ Footer Section ---- */
+
+	
+.pt-100{
+	padding-top: 100px;
+}
+.pb-100{
+	padding-bottom: 100px;
+}
+
+.footer-set{
+	    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.footer-set li{
+	font-size:14px;
+	text-decoration: none;
+	list-style-type: none;
+
+}
+
+.link_set a{
+	text-decoration: none;
+	color: #000000;
+	font-family: 'Manrope';	
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 40px;
+}
+
+.link_set a:hover{
+	color: #229dd8 ;
+}
+
+.row_msg a{
+	text-decoration: none;
+	color: #000000;
+	font-family: 'Manrope';	
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 35px;
+}
+
+.row_msg a:hover{
+	color: #229dd8 ;
+}
+.footer{
+	background-image: url('../images/Rectangle 33.png');
+	background-position: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+
+
+.footer .mainheading{
+	font-size: 16px;
+	font-family: 'Manrope';
+	font-weight: 800;
+	color: #1D3155;
+	padding-bottom: 10px;
+}
+.footer .sub-para{
+	font-size: 16px;
+	font-weight: 400;
+	font-family: 'Manrope';
+	padding-top: 20px;
+	
+}
+
+
+		/* ---- Footer End Section ---- */
+			
+.pt-20{
+	padding-top: 20px;
+}
+.pb-20{
+	padding-bottom: 20px;
+}
+
+
+.footer-end .sub-para{
+	font-size: 16px;
+	font-weight: 400;
+	font-family: 'Manrope';	
+}
+
+
+
+
+
+
+							/*-------------- Media Query --------------- */
+
+
+@media (max-width:1366px){
+
+				
+			
+			
+.brand_img img{
+	width: 80%;
+}	
+.nav-set a{
+	   font-family: 'Manrope';	
+	font-size: 16px;
+	font-weight: 400;
+	color: #000000;	
+	line-height: 30px;
+	
+}
+
+							
+							
+						
+.service_row .sub-heading {
+  
+    font-size: 25px;
+    font-family: 'Manrope';
+    font-weight: bold;
+    color: #000000;
+}
+
+.service_row .sub-para {
+  
+    font-family: 'Manrope';
+    font-weight: 400;
+    font-size: 15px;
+}							
+						
+							
+
+.frayer_row .subHeading {
+    font-size: 18px;
+    font-family: 'Manrope';
+    font-weight: bold;
+    color: #FFFFFF;
+    line-height: 38px;
+    padding-top: 20px;
+}
+
+.frayer_row .sub-para {
+    font-family: 'Manrope';
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 27px;
+}
+
+							
+							
+.dream-banner .sub-heading {
+    font-size: 26px;
+    font-family: 'Manrope';
+    font-weight: bold;
+    color: #FFFFFF;
+    padding-left: 20px;
+}
+
+				
+.dream-banner .sub-heading {
+    font-size: 26px;
+    font-family: 'Manrope';
+    font-weight: bold;
+    color: #FFFFFF;
+    padding-left: 20px;
+}				
+
+							
+	
+.footer .mainheading {
+    font-size: 18px;
+    font-family: 'Manrope';
+    font-weight: 800;
+    color: #1D3155;
+    padding-bottom: 10px;
+}
+
+.link_set a {
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Manrope';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 40px;
+}
+
+.row_msg a {
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Manrope';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 35px;
+}
+							
+}
+
+
+@media(max-width:1365px){
+	
+
+
+.con-set {
+    margin-right: 24px;
+}	
+	
+
+.service_row .sub-para {
+    font-family: 'Manrope';
+    font-weight: 400;
+    font-size: 15px;
+}
+
+		
+.explore_row_img img {
+    height: 600px;
+	object-fit: cover;
+    width: 100%;
+}
+
+
+
+.dream-banner .sub-heading {
+    font-size: 23px;
+    font-family: 'Manrope';
+    font-weight: bold;
+    color: #FFFFFF;
+    padding-left: 20px;
+}		
+		
+}
+
+
+@media(max-width:1199px){
+	.nav-set{gap:5px;}
+}
+
+
+@media(max-width:991px){
+	.nav-set a{font-size:14px;}
+	.service_row .sub-heading{font-size:18px;}
+	.frayer_Set .sub-heading{padding-bottom:50px;}
+	.frayer_row .subHeading{line-height: normal;}
+}
+
+@media(min-width:768px){
+	.desktop-block.d-none{display: block !important;}
+}
+
+@media (max-width:767px){
+	#navbarsExample04.collapse.show{    position: absolute;
+		width: 100%;
+		top: 75px;
+		left: 0;
+		background: #11294d;
+		z-index: 99;
+	}
+	.desktop-block.d-none{display: none;}
+	#navbarsExample04.collapse.show a{color:#fff;}
+	.mobile-block{display: block !important;}
+	.navbar-toggler{border:none;}
+	.navbar-toggler:focus{box-shadow:none;}
+	
+.nav-set {
+	line-height: 30px;
+    padding: 10px 15px;
+}	
+
+
+			
+.carousel-set .sub-heading {
+    font-size: 36px;
+   
+    line-height: normal;
+    padding-bottom: 10px;
+}
+.carousel-set .see-btn{font-size: 14px;}
+
+.banner-img .carousel-inner .carousel-item img{height:550px;}
+			
+.sub-heading {
+    
+    font-size: 32px;
+}	
+
+.service_row img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.service_row .sub-heading{
+	text-align:center;
+}
+.service_row .sub-para{
+	text-align:center;
+}
+	
+			
+			
+
+.frayer_row .sub-para {
+    padding-bottom: 14px;
+}	
+		
+		
+.explore_row_img img {
+    height: 400px;
+    width: 100%;
+}	
+
+		
+.dream-banner .sub-heading {
+    text-align: center;
+}	
+.dream-banner .sub-para{
+	text-align:center;
+	padding-bottom: 10px;
+}	
+
+
+	
+
+
+.footer-set img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.footer .mainheading {
+    font-size: 20px;
+}		
+.footer .sub-para {
+    text-align: center;
+	padding-bottom: 10px;
+}
+
+.footer-set .blue_set{
+	padding-bottom: 20px;
+}
+
+.footer-set .link_set{
+	text-align: center;
+}
+
+.link_set a {
+    font-size: 16px;
+}
+.link_set{
+	padding-bottom:30px;
+}
+
+
+.footer .row_msg{
+	text-align: center;
+	font-size: 16px;
+}
+
+
+		
+.footer-end .sub-para {
+    font-size: 14px;
+}		
+		
+.pt-100, .pt-70{padding-top:50px;}
+.pb-100, .pb-70{padding-bottom:50px;}
+}
+
+@media (max-width:567px){
+	
+
+	
+	
+.carousel-set .sub-heading {
+    font-size: 44px;
+    line-height: 52px;
+}
+
+
+
+		
+.sub-heading {
+    font-size: 36px;
+}
+
+.service_set .sub-para {
+    font-size: 14px;
+}
+
+
+.explore_row_img img {
+    height: 390px;
+    width: 100%;
+}	
+
+		
+			
+.dream-banner .sub-heading {
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+.con-btn {
+    padding-right: 50px;
+    padding-left: 50px;
+    font-size: 13px;
+}
+}
+
+
+
+@media (max-width:479px){
+.brand_img{width:240px;}	
+#navbarsExample04.collapse.show{top:60px;}
+.banner-img .carousel-inner .carousel-item img{height:480px;}
+.carousel-set .sub-heading {
+    font-size: 30px;
+    line-height: normal;
+}
+
+	
+.sub-heading {
+    font-size: 30px;
+}
+
+
+		
+
+.explore_row_img img {
+    height: 310px;
+    width: 100%;
+}
+
+
+			
+.dream-banner .sub-heading {
+    font-size: 22px;
+}	
+
+
+}
+
+
